@@ -3,7 +3,7 @@ Simple Captcha for laravel 5
 
 ## Preview
 
-	![alt Captcha](https://github.com/DearMadMan/Captcha/preview.jpg)
+	![alt Captcha](https://raw.githubusercontent.com/DearMadMan/Captcha/master/preview.jpg)
 
 ## Installation
 
