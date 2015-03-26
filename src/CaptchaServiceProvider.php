@@ -9,7 +9,7 @@
         {
 
             $this->app->singleton('DearMadMan\Captcha',function($app){
-                return Captcha::InitFromArray($app['options']);
+                return Captcha::GetInstance($app['options']);
             });
         }
     }
