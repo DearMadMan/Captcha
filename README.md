@@ -3,7 +3,7 @@ Simple Captcha for laravel 5
 
 ## Preview
 
-![alt Captcha](https://github.com/DearMadMan/Captcha/preview.jpg)
+	![alt Captcha](https://github.com/DearMadMan/Captcha/preview.jpg)
 
 ## Installation
 
@@ -34,12 +34,6 @@ Find the `providers` key in `app/config/app.php` and register the Captcha Servic
         'Dearmadman\Captcha\CaptchaServiceProvider',
     )
 ```
-
-## Configuration
-
-To use your own settings, publish config.
-
-```$ php artisan config:publish mews/captcha```
 
 ## Example Usage
 
