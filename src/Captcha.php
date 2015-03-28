@@ -42,7 +42,7 @@ class Captcha
      * @param $arr 初始化数组
      * @return Captcha
      */
-    public static  function GetInstance($arr){
+    public static  function GetInstance($arr=null){
         if(!self::$instance){
             $instance=new self();
             if(!empty($arr))
@@ -132,7 +132,7 @@ class Captcha
      * @return bool
      */
     public function check($captcha){
-        return session('captcha')==trim($captcha);
+        return strtolower(session('captcha'))==strtolower(trim($captcha));
     }
 
 
