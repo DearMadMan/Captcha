@@ -8,7 +8,7 @@
         public function register ()
         {
 
-            $this->app->singleton('DearMadMan\Captcha',function($app){
+            $this->app->singleton('Dearmadman\Captcha',function($app){
                 return Captcha::GetInstance($app['options']);
             });
         }
